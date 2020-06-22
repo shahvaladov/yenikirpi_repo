@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Sansita;
+    src: url(../webfonts/Sansita/Sansita-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair;
+    src: url(../webfonts/Playfair/PlayfairDisplaySC-Bold.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../webfonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: Taviraj;
+    src: url(../webfonts/Taviraj/Taviraj-Regular.ttf);
+}
+
+
+
+
+
+/* .masthead-left {
+    font-family: Playfair !important;
+} */
+
+section {
+    font-family: Taviraj !important;
+}

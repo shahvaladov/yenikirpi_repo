@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1643px) {
+    .low-list a {
+        font-size: 20px !important;
+    }
+    strong {
+        font-size: 12px;
+    }
+    .marquee {
+        max-width: 90% !important;
+        width: 90% !important;
+    }
+    .flash-news4 {
+        display: none;
+    }
+    .article-title {
+        top: 340px !important;
+    }
+    .categories {
+        top: 235px !important;
+    }
+    li {
+        list-style: none !important;
+    }
+    .agenda-top .agenda-shrt-color {
+        top: 190px !important; 
+    }
+    .agenda-bottom .agenda-shrt-color {
+        top: 400px;
+    }
+    .agenda-top .clock-ico{
+        top: 230px !important;
+    }
+    .agenda-bottom .clock-ico{
+        top: 440px !important;
+    }
+    
+    .economy-categories {
+        position: absolute;
+        left: 40%;
+        height: 0px !important;
+    }
+    .economy-news h6 {
+        width: 50% !important;
+        left: 54% !important;
+    }
+    .interest-news-header {
+        margin-top: 25px;
+    }
+    .interest-category {
+        top: 50px !important;
+    }
+    .interesting-news h6 {
+        font-size: 20px !important;
+    }
+    .blog-info h4 {
+        font-size: 38px !important;
+    }
+    .last-writing p {
+        font-size: 15px !important;
+    }
+    .other-info-head {
+        width: 193px !important;
+    }
+    .other-info-category {
+        top: 60px !important;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .low-list a {
+        font-size: 16px !important;
+    }
+    strong {
+        font-size: 9px;
+    }
+    .article-title {
+        top: 360px !important;
+    }
+    .article-title h3 {
+        font-size: 30px !important;
+    }
+    .category-list {
+        display: none !important;
+    }
+    .article-author {
+        top: 435px !important;
+    }
+    .categories {
+        top: 255px !important;
+    }
+    .economy-news h6 {
+        font-size: 12px;
+        left: 60% !important;
+        width: 30% !important;
+    }
+    .interesting-news h6 {
+        font-size: 17px !important;
+    }
+    .interesting-news .clock-ico img {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .interesting-news p {
+        font-size: 13px !important;
+    }
+    .category-list {
+        display: initial !important;
+    }
+    .category-list {
+        font-size: 8px !important;
+        margin-right: 4px;
+    }
+    .blog-info h4 {
+        font-size: 35px !important;
+    }
+    .blog-head-starting p {
+        font-size: 15px !important;
+    }
+    .other-info .clock-ico img {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .other-info .clock-ico p {
+        font-size: 13px !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .top-masthead {
+        height: 80px !important;
+    }
+    .masthead-left,
+    .masthead-right {
+        float: none !important;
+        display: block !important;
+        clear: both !important;
+        width: 100% !important;
+    }
+}

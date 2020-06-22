@@ -1,0 +1,836 @@
+html {
+    background-color: #f5f5f5;
+}
+header {
+    color: white;
+    background-image: url(../img/mount_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+header li {
+    display: inline-block;
+}
+.top-masthead {
+    background-color: #353535;
+    height: 40px;
+}
+.date {
+    float: left;
+    margin-right: 40px;
+}
+.masthead-left {
+    line-height: 35px;
+    float: left;
+    font-size: 14px;
+}
+.masthead-topbar .masthead-nav a {
+    color: white;
+    text-decoration: none;
+}
+.masthead-nav {
+    margin-right: 10px;
+}
+html a {
+    color: white;
+    text-decoration: none;
+}
+html a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.masthead-social{
+    float: right;
+}
+.masthead-social a {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mast-socico {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mast-socico i {
+    text-align: center;
+}
+.mast-insta {
+    background-color: #3f729b;
+}
+.mast-fb {
+    background-color: #3f51b5;
+}
+
+.mast-twitter {
+    background-color: #03a9f4;
+}
+
+.mast-linked-in {
+    background-color: #0288d1;
+}
+.mast-yt {
+    background-color: #cd201f;
+}
+
+
+
+.kirpi-logo img {
+    width: 523px;
+    height: auto;
+}
+
+
+
+
+.low-navbar {
+    background-color: #1c641a;
+    height: 50px;
+    line-height: 3rem;
+}
+.low-nav {
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.low-list {
+    margin-right: 12px;
+}
+.low-navbar .low-nav .low-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.low-list:hover {
+    height: 50px;
+    border-bottom: 3px solid white;
+    transition: 0.2s;
+}
+.low-navbar button {
+    border: 1px solid #1c641a;
+    background-color: #1c641a;
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+.low-navbar button img {
+    filter: invert();
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+main {
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+
+.flash-news {
+    font-size: 14px;
+    line-height: 45px;
+}
+.alert-spinner {
+    background-color: #1c641a;
+    color: white;
+    line-height: 45px;
+    padding-left: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+strong {
+    font-weight: bold;
+}
+.marquee {
+    padding: 0 !important;
+}
+.js-marquee-wrapper {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    margin-left: 0px;
+}
+
+.js-marquee a {
+    padding-left: 10px;
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+.js-marquee a:hover {
+    color: black;
+    text-decoration: none;
+}
+.js-marquee a  img {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+.news-bg-info {
+    position: relative;
+    top: 20px;
+}
+
+.news-width-wrapper {
+    width: 100%;
+}
+
+.main-news-header {
+    border-bottom: 3px solid #1c641a;
+    margin-bottom: 15px;
+    width: 155px;
+}
+.main-news-bg {
+    background-image: url(../img/manat_dollar_070116.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 415px;
+}
+
+.article-title {
+    position: absolute;
+    top: 375px;
+}
+
+.categories {
+    position: relative;
+    top: 300px;
+}
+
+.category-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    list-style: none;
+    display: inline-block;
+    background-color: #1c641a;
+}
+.category-list:hover {
+    background-color: #158111;
+}
+.news-bg-info a {
+    text-decoration: none;
+    color: white;
+}
+.news-bg-info a:hover {
+    text-decoration: none;
+    color: white;
+}
+.article-title h3 {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-inline-start: 40px;
+}
+.article-author {
+    position: absolute;
+    top: 415px;
+    padding-inline-start: 40px;
+}
+.clock-ico img {
+    height: 20px;
+    width: 20px;
+    filter: invert();
+}
+
+.author-of-article {
+    color: white;
+}
+
+.author-of-article, img {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.agenda-display {
+    display: block;
+    background-color: black;
+}
+
+.agenda-top {
+    background-image: url(../img/gold-and-silver-bars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    z-index: -1;
+}
+.agenda-bottom {
+    background-image: url(../img/pensiya_874.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+
+.agenda-news-header {
+    border-bottom: 3px solid #1c641a;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.agenda-bottom {
+    margin-top: 15px;
+}
+.agenda-top .agenda-shrt-color {
+    position: absolute;
+    top: 200px;
+    padding-left: 15px;
+    width: 90%;
+    color: rgb(255, 255, 255);
+}
+.agenda-bottom .agenda-shrt-color {
+    position: absolute;
+    padding-left: 15px;
+    top: 400px;
+    width: 90%;
+    color: rgb(255, 255, 255);
+}
+
+.agenda-shrt-color h5 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+.agenda-top .clock-ico{
+    position: absolute;
+    top: 230px;
+    padding-left: 15px;
+    width: 90%;
+}
+.agenda-bottom .clock-ico{
+    position: absolute;
+    top: 430px;
+    padding-left: 15px;
+    width: 90%;
+}
+
+.agenda-category {
+    position: relative;
+    top: 60px;
+    width: 90%;
+    margin: 0 auto;
+    padding-inline-start: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.economy-news-header {
+    border-bottom: 3px solid #1c641a;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.economy-news {
+    background-color: white;
+    height: 100px;
+    margin-bottom: 5px;
+    width: 112%;
+}
+.economy-news img{
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+.economy-categories {
+    width: 65%;
+    height: 100px;
+    float: right;
+}
+.economy-list {
+    display: inline-block;
+}
+
+.economy-list a {
+    color: #1c641a;
+    font-size: 12px;
+    font-weight: bolder;
+    display: none;
+}
+
+
+.economy-info-head {
+    position: absolute;
+    width: 62%;
+    top: 75px;
+    left: 35%;
+}
+.economy-info-head2 {
+    position: absolute;
+    width: 62%;
+    top: 180px;
+    left: 35%;
+}
+.economy-info-head3 {
+    position: absolute;
+    width: 62%;
+    top: 285px;
+    left: 35%;
+}
+.economy-info-head4 {
+    position: absolute;
+    width: 62%;
+    top: 390px;
+    left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.interesting-news {
+    margin-top: 40px;
+}
+
+.interesting-news .row {
+    width: 103%;
+}
+
+.int-news1, 
+.int-news2, 
+.int-news3, 
+.int-news4,
+.int-news5 {
+    margin-right: 15px;
+    background-color: white;
+    height: 300px;
+    padding: 0 !important;
+}
+.interest-news-header {
+    border-bottom: 3px solid #1c641a;
+    margin-bottom: 15px;
+    width: 150px;
+}
+.interest-category {
+    position: relative;
+    top: 70px;
+    padding: 0;
+    padding-left: 15px;
+    /* display: none; */
+}
+
+.interest-category a {
+    color: white;
+    text-decoration: none;
+}
+.interest-category a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.int-news1-bg {
+    background-image: url(../img/dini-qurum.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.int-news1-bg, 
+.news1-short-info, 
+.int-news1 .clock-ico {
+    display: block;
+}
+.int-news1 .clock-ico p {
+    color: black;
+}
+.int-news1 .clock-ico img {
+    filter: none;
+}
+
+
+.int-news2-bg {
+    background-image: url(../img/cutluk.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.int-news2-bg, 
+.news2-short-info, 
+.int-news2 .clock-ico {
+    display: block;
+}
+.int-news2 .clock-ico p {
+    color: black;
+}
+.int-news2 .clock-ico img {
+    filter: none;
+}
+
+.int-news3-bg {
+    background-image: url(../img/kitabxana.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.int-news3-bg, 
+.news3-short-info, 
+.int-news3 .clock-ico {
+    display: block;
+}
+.int-news3 .clock-ico p {
+    color: black;
+}
+.int-news3 .clock-ico img {
+    filter: none;
+}
+
+
+.int-news4-bg {
+    background-image: url(../img/shvast.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.int-news4-bg, 
+.news4-short-info, 
+.int-news4 .clock-ico {
+    display: block;
+}
+.int-news4 .clock-ico p {
+    color: black;
+}
+.int-news4 .clock-ico img {
+    filter: none;
+}
+
+
+
+.int-news5-bg {
+    background-image: url(../img/nazirlik.jpg);
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.int-news5-bg, 
+.news5-short-info, 
+.int-news5 .clock-ico {
+    display: block;
+}
+.int-news5 .clock-ico p {
+    color: black;
+}
+.int-news5 .clock-ico img {
+    filter: none;
+}
+
+
+.interesting-news h6 {
+    position: absolute;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.interesting-news .clock-ico  {
+    position: absolute;
+    top: 260px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+.blog-all {
+    margin-top: 20px;
+}
+
+.blog-col {
+    background-color: white;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    height: 600px;
+    padding: 0 !important;
+}
+.blog-col .clock-ico { 
+    padding-left: 15px;
+}
+.blog-col .clock-ico img {
+    filter: none;
+}
+.blog-col .clock-ico p {
+    color: black;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 250px;
+}
+
+.blog-info h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 48px;
+}
+.blog-head-starting p {
+    color: #959595;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-style: italic;
+}
+
+.blog-all-search input {
+    height: 45px;
+    float: left;
+    color: #353535;
+    border-radius: 0;
+    border: 1px solid #959595;
+    font-weight: bolder;
+    width: 75%;
+    padding-left: 10px;
+}
+
+
+.search-right {
+    padding: 0 !important;
+}
+.search-button {
+    background-color: #1c641a;
+    height: 45px;
+    border: 1px solid #1c641a;
+    color: white;
+    width: 25%;
+}
+
+.last-writ-head {
+    border-bottom: 3px solid #1c641a;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+.last-writing {
+    background-color: white;
+    width: 100%;
+    padding-left: 15px;
+    height: 11%;
+}
+
+.last-writing p {
+    position: relative;
+    top: 10px;
+    color: #404040;
+    font-size: 17px;
+}
+
+
+
+
+
+.other-info-blogs {
+    width: 102.5%;
+}
+
+.other-info a {
+    color: white;
+    text-decoration: none;
+}
+.other-info a:hover {
+    color: white;
+    text-decoration: none;
+}
+.other-info .other-info-category {
+    padding-inline-start: 20px;
+}
+.other-info-head {
+    border-bottom: 3px solid #1c641a;
+    margin-bottom: 15px;
+    width: 191px;
+}
+.other-info-category {
+    position: relative;
+    top: 80px;
+}
+.other-white-bg {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    margin-right: 10px;
+    padding: 0% !important;
+}
+.other-bg1 {
+    position: absolute;
+    background-image: url(../img/sefer-ebiyev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+.other-bg2 {
+    position: absolute;
+    background-image: url(../img/dini-qurum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+.other-bg3 {
+    position: absolute;
+    background-image: url(../img/cutluk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+.other-bg4 {
+    position: absolute;
+    background-image: url(../img/190-mannat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+.other-bg5 {
+    position: absolute;
+    background-image: url(../img/kitabxana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+}
+
+.other-info .clock-ico img {
+    filter: none;
+}
+.other-info .clock-ico p {
+    color: black;
+}
+
+.other-info-header {
+    position: absolute;
+    top: 170px;
+    font-weight: bolder;
+}
+.other-info .clock-ico {
+    position: absolute;
+    top: 350px;
+}
+.other-info-header, .other-info .clock-ico {
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-top {
+    height: 230px;
+    background-color: #1f2125;
+}
+.footer-info {
+    position: relative;
+    top: 50px;
+    font-size: 1rem;
+}
+.footer-social {
+    margin-right: 135px;
+    float: right;
+}
+
+p.number {
+    position: relative;
+    bottom: 20px;
+}
+
+p.email {
+    position: relative;
+    bottom: 40px;
+}
+
+.footer-bot {
+    line-height: 40px;
+    background-color: #121314;
+    height: 40px;
+}
+
+.footer-bot p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+/* 
+.category-list,
+.economy-list {
+    display: none !important;
+} */
