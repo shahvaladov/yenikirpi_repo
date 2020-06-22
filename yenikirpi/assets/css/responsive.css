@@ -125,7 +125,7 @@
 }
 @media screen and (max-width: 991px) {
     .top-masthead {
-        height: 80px !important;
+        height: 100px !important;
     }
     .masthead-left,
     .masthead-right {
@@ -133,5 +133,88 @@
         display: block !important;
         clear: both !important;
         width: 100% !important;
+    }
+    .masthead-left,
+    .masthead-right {
+        display: flex !important;
+        justify-content: center;
+    } 
+    .low-nav {
+        display: none;
+    }
+    .kirpi-logo img {
+        margin: 0 auto;
+        display: flex !important;
+        justify-content: center;
+    }
+    .flash-news3 {
+        display: none;
+    }
+    .categories {
+        top: 225px !important;
+    }
+    .article-title {
+        top: 330px !important;
+    }
+    .agenda-shrt-color h5 {
+        font-size: 14px !important;
+    }
+    .category-list {
+        display: none !important;
+    }
+    .agenda-display p {
+        font-size: 10px;
+    }
+    .agenda-display .clock-ico img {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .economy-news img {
+        width: 70px !important;
+    }
+    .economy-news h6 {
+        font-size: 11px;
+        width: 40% !important;
+        left: 50% !important;
+    }
+    .interesting-news h6 {
+        font-size: 15px !important;
+    }
+    .interesting-news .clock-ico img {
+        height: 12px !important;
+        width: 12px !important;
+    }
+    .interesting-news .clock-ico p {
+        font-size: 9px !important;
+    }
+    .last-writing {
+        height: 100% !important;
+    }
+    .other-info {
+        margin-top: 120px !important;
+    }
+    .flash-news .row {
+        margin: 0 !important;
+    }
+    .other-info h5 {
+        font-size: 17px !important;
+    }
+    .other-info .clock-ico img {
+        height: 12px !important;
+        width: 12px !important;
+    }
+    .other-info .clock-ico p {
+        font-size: 9px !important;
+    }
+    .footer-top {
+        height: 260px !important;
+    }
+    .footer-social {
+        float: initial !important;
+        margin-top: 60px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
