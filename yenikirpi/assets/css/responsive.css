@@ -218,3 +218,100 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 767px) {
+    .marquee {
+        max-width: initial !important;
+        width: initial !important;
+        background-color: white;
+        padding: 0 !important;
+        width: 100% !important;
+        height: 100%;
+    }
+    .js-marquee-wrapper {
+        /* padding-right: 15px !important; */
+    }
+    .js-marquee-wrapper a {
+        font-size: 12px !important;
+    }
+    .main-news-bg {
+        width: 107% !important;
+    }
+    .agenda-top,
+    .agenda-bottom {
+        width: 107% !important;
+    }
+    .agenda-shrt-color h5 {
+        font-size: 20px !important;
+    }
+    .agenda-display p {
+        font-size: 15px !important;
+    }
+    .economy-news h6 {
+        font-size: 20px !important;
+        left: 30% !important;
+        width: 70% !important;
+    }
+    .economy-news img {
+        width: 120px !important;
+    }
+    .economy-news {
+        width: 107% !important;
+    }
+    .interesting-news .row {
+        width: 107% !important;
+    }
+    .int-news1, 
+    .int-news2, 
+    .int-news3, 
+    .int-news4,
+    .int-news5 {
+        margin-top: 10px;
+    }
+    .interesting-news h6 {
+        font-size: 25px !important;
+    }
+    .interesting-news .clock-ico img {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .interesting-news .clock-ico p {
+        font-size: 15px !important;
+    }
+    .blog-all h4 {
+        font-size: 33px !important;
+    }
+    .other-info-blogs {
+        width: 107% !important;
+    }
+    .other-white-bg {
+        margin-top: 20px;
+        height: 400px !important;
+    }
+    .other-info .clock-ico {
+        top: 350px !important;
+    }
+    .other-info h5 {
+        font-size: 25px !important;
+    }
+    .other-info .clock-ico img {
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .other-info .clock-ico p {
+        font-size: 15px !important;
+    }
+    .other-info-blogs-bg {
+        height: 60% !important;
+        background-position: center !important;
+    }
+    .other-info-header {
+        top: 250px !important;
+    }
+}  
+
+@media screen and (max-width: 575px) {
+    * {
+        /* margin: 0 !important; */
+        /* padding: 0 !important; */
+    }
+}
