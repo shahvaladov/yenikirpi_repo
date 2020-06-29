@@ -9,9 +9,6 @@
         max-width: 90% !important;
         width: 90% !important;
     }
-    .flash-news4 {
-        display: none;
-    }
     .article-title {
         top: 340px !important;
     }
@@ -146,9 +143,6 @@
         margin: 0 auto;
         display: flex !important;
         justify-content: center;
-    }
-    .flash-news3 {
-        display: none;
     }
     .categories {
         top: 225px !important;
@@ -311,7 +305,36 @@
 
 @media screen and (max-width: 575px) {
     * {
-        /* margin: 0 !important; */
-        /* padding: 0 !important; */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .kirpi-logo img {
+        width: 100% !important;
+    }
+    .interesting-news .row {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .other-info-blogs {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .main-news-bg {
+        width: 100% !important;
+    }
+    .agenda-top, .agenda-bottom {
+        width: 100% !important;
+    }
+    .economy-news {
+        width: 100% !important;
+    }
+    .category-list {
+        display: initial !important;
+    }
+    .economy-categories {
+        left: 23%;
+    }
+    .js-marquee-wrapper a {
+        font-size: 60% !important;
     }
 }

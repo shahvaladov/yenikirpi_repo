@@ -180,8 +180,13 @@ strong {
     text-decoration: none;
 }
 .js-marquee a  img {
-    height: 30px;
-    width: 30px;
+    margin-top: 8px;
+    float: left;
+    height: 30px !important;
+    width: 30px !important;
+}
+.flash-width {
+    width: 500px;
 }
 
 
